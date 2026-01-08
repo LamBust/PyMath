@@ -1,0 +1,10 @@
+body{
+    background-color: lightskyblue;
+    color:orangered;
+}
+
+p{
+    border-radius: 4px;
+    border-color: red;
+    border-style: solid;
+}
