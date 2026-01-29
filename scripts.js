@@ -5,7 +5,7 @@ let mistake = document.querySelector(".warning")
 
 var answered = 0
 
-para.textContent = ("Что возвращает функция math.sqrt(x)? \n1) Квадрат числа \n2) Кубический корень \n3) Квадратный корень числа \n4) Модуль числа")
+para.textContent = ("Что возвращает функция math.sqrt(x)? <br>1) Квадрат числа <br>2) Кубический корень <br>3) Квадратный корень числа <br>4) Модуль числа")
 
 function ans(){
     let chosen = anses.value
