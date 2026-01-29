@@ -6,6 +6,7 @@ let o1 = document.querySelector(".fs")
 let o2 = document.querySelector(".sn")
 let o3 = document.querySelector(".td")
 let o4 = document.querySelector(".ft")
+let anss = document.querySelector("ol")
 
 var answered = 0
 
@@ -43,10 +44,7 @@ function ans(){
         mistake.textContent = "Верный ответ"
         ++answered
         para.textContent = ("Вопросов больше нет!")
-        o1.textContent = ""
-        o2.textContent = ""
-        o3.textContent = ""
-        o4.textContent = ""
+        anss.remove()
     }
     else if (answered != 3){
         mistake.textContent = "Вы ответили неверно, попробуйте ещё раз"
